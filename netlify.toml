@@ -1,0 +1,11 @@
+[build]
+  command = "npm run build"
+  publish = "out"
+
+# Redirect rules để xử lý client-side routing cho static export
+# Quy tắc này đảm bảo tất cả các route được xử lý bởi Next.js
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+

@@ -1,0 +1,177 @@
+import Link from 'next/link';
+import Image from 'next/image';
+
+export default function StoryPage() {
+  return (
+    <main id="main-content">
+      <article className="" id="newsroom-article">
+        <section className="page-section" id="article-header">
+          <div className="container">
+            <div className="row">
+              <div className="col-xs-12">
+                <nav className="nav-breadcrumb"></nav>
+                <header className="clearfix">
+                  <div className="header-text" id="article-header-image">
+                    <h1 className="entry-title">
+                      The Importance Of Occupational Standards To Higher Education Learners: 3 Reasons Why.
+                    </h1>
+                    <p>
+                      In today&apos;s fast-paced job market, employees need a deep understanding of the skills, knowledge,
+                      and behaviors required for their roles. A solid grasp of one&apos;s duties and responsibilities
+                      within an organization is essential to succeed and contribute effectively to the workplace. While
+                      general guidelines may not always apply to every business, occupational standards can be tailored to
+                      fit an organization&apos;s unique culture and environment.
+                    </p>
+                    <p>
+                      Occupational standards enter into effect at this point. Occupational standards define the
+                      competencies required for various job roles and provide employees with a reference framework. They
+                      are utilized in multiple industries, from healthcare to construction, and are designed to benefit
+                      workers at all career stages.
+                    </p>
+                    <p>
+                      In this article, we will discuss the significance of occupational standards for higher education
+                      students and the ways in which they can benefit workers in a variety of job responsibilities. The
+                      discussion also includes some of the industries that employ these frameworks, as well as examples of
+                      how they can assist employees in securing suitable employment.
+                    </p>
+                  </div>
+                </header>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="page-section" id="article-content">
+          <div className="container">
+            <div className="row">
+              <div className="col-xs-12">
+                <h2>What Are Occupational Standards?</h2>
+                <p>
+                  Occupational standards are a set of benchmarks that define the knowledge, skills, and behaviours
+                  required for a particular job or role. They are used to ensure that job performance is consistent and
+                  of high quality. They are typically developed through a collaborative process involving employers,
+                  employees in the company, and industry experts.
+                </p>
+                <p>
+                  According to Gasskov, the phrase &quot;Occupational standards&quot; has another meaning as the
+                  &quot;evidence-based benchmarks of competent performance in the workplace which a representative sample
+                  of employers and other key stakeholders has agreed&quot;.
+                </p>
+                <p>Content of occupational standards commonly involves several components, which are listed below:</p>
+                <ul>
+                  <li>
+                    <strong>Performance criteria</strong> is a statement of performance outcomes (which may involve
+                    &quot;critical elements of performance&quot;). Critical elements of performance can take various
+                    forms depending on the type of technology, characteristics of the workplace, etc. Declaration of
+                    performance outcome and specific critical aspects of performance commonly relate to each function to
+                    allow for distinguishing thereby between &quot;performance&quot; and &quot;competent
+                    performance&quot;.
+                  </li>
+                  <li>
+                    <strong>Knowledge and skills</strong> required for the competent implementation of job-related
+                    functions enabling the demonstration of performance criteria.
+                  </li>
+                  <li>
+                    Essential details of the specific workplace where the job functions should be implemented (the
+                    so-called &quot;defined contexts&quot;). This means that if the workplace context has changed, the
+                    occupational standard may no longer be valid.
+                  </li>
+                </ul>
+                <h2>The Importance of Occupational Standards to Higher Education Learners: 3 Reasons Why</h2>
+                <p>
+                  In accordance with setting the standard for the workforce and job roles, it dramatically impacts
+                  learners, significantly higher education students. Occupational standard is evaluated as a reference for
+                  them to upgrade their knowledge, skill set, and expertise referring to their dream job and position.
+                </p>
+                <p>Here are several reasons that higher education should pay attention to these standards:</p>
+                <ol>
+                  <li>
+                    First, they can help learners prepare for their future careers by providing a clear understanding of
+                    the skills, knowledge, and behaviours required for different job roles. This can help learners make
+                    informed decisions about their education and training and can help them develop the skills they need
+                    to be successful in their chosen careers.
+                  </li>
+                  <li>
+                    Second, occupational standards can be used to design courses and qualifications that meet the needs
+                    of employers and ensure that graduates are job-ready. By incorporating occupational standards into
+                    their programs and classes, higher education institutions can help ensure that their graduates are
+                    prepared to meet the needs of the job market and can help improve graduate employability.
+                  </li>
+                  <li>
+                    Finally, incorporating occupational standards into higher education programs can help ensure better
+                    alignment between education and industry needs. By working with industry partners to develop and
+                    update occupational standards, higher education institutions can help ensure that their programs are
+                    relevant and up-to-date and can help ensure that graduates are prepared to meet the needs of the job
+                    market.
+                  </li>
+                </ol>
+                <h2>Fields Where Occupational Standards Apply</h2>
+                <p>
+                  Occupational standards are used in a wide range of industries and job roles. Some industries where
+                  occupational standards are fundamental include healthcare, construction, finance, hospitality, and
+                  education.
+                </p>
+                <p>
+                  In specific industries, personnel will be obliged to perform certain tasks that not all occupations
+                  have. Therefore, it is divided into many positions and industries that employees can refer to in order
+                  to self-improve and enhance their career path.
+                </p>
+                <h3>Examples of Occupational Standards in Different Industries</h3>
+                <p>
+                  There are many examples of occupational standards in different industries. Specifically, the
+                  International Labour Organization (ILO) has developed a set of occupational standards in the healthcare
+                  industry that define the knowledge, skills, and behaviours required for different nursing roles. Nursing
+                  schools and healthcare providers use these standards to ensure that nursing graduates are prepared to
+                  meet the needs of the job market.
+                </p>
+                <h4>Construction Industry</h4>
+                <p>
+                  The Construction Industry Training Board (CITB) has developed a set of occupational standards for
+                  different construction roles, including bricklaying, carpentry, and plumbing. Employers and employees
+                  use these standards to ensure that construction work is performed to a high standard and are also used by
+                  training providers to develop courses and qualifications that meet the needs of the construction
+                  industry.
+                </p>
+                <h4>Finance Industry</h4>
+                <p>
+                  Chartered Institute for Securities &amp; Investment (CISI) has developed a set of occupational
+                  standards for financial services professionals, which define the knowledge, skills, and behaviours
+                  required for different financial services roles. Training providers use these standards to develop
+                  courses and qualifications relevant to the financial services industry.
+                </p>
+                <h4>Hospitality Industry</h4>
+                <p>
+                  Institute of Hospitality has developed a set of occupational standards for different hospitality
+                  roles, including hotel management, food and beverage service, and housekeeping. Employers and
+                  employees use these standards to ensure that hospitality services are delivered to a high standard and
+                  are used by training providers to develop courses and qualifications that meet the needs of the
+                  hospitality industry.
+                </p>
+                <h2>Conclusion</h2>
+                <p>
+                  Occupational standards are crucial to high-quality job performance and continuous professional
+                  development. For higher education learners, occupational standards can provide a clear understanding of
+                  the skills, knowledge, and behaviours required for different job roles. They can help ensure that
+                  graduates are job-ready and prepared to meet the needs of the job market.
+                </p>
+                <p>
+                  By incorporating these standards into their programs and courses, higher education institutions can
+                  help ensure that their graduates are prepared to meet the needs of the job market and can help improve
+                  graduate employability. Occupational standards are used in a wide range of industries and job roles
+                  and are a valuable tool for ensuring high-quality job performance and continuous professional
+                  development.
+                </p>
+                <p>
+                  As the job market continues to evolve, higher education institutions need to work closely with industry
+                  partners to develop and update occupational standards. This will help ensure that education and training
+                  programs are relevant and up-to-date and will help ensure that graduates are prepared to meet the
+                  needs of the job market.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+  );
+}
+
